@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                                    <!-- CSS Link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="image/titleImage.png">
+    <title>BackLogers</title>
+                                                    <!-- BootStrap -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+     crossorigin="anonymous">
+                                                     <!-- JS Link-->
+    <script src="js/script.js"></script>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+                                                    <!-- Font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <body data-spy="scroll" data-target="#main-nav" id="home">
+                                                    <!-- Navigation BAR -->
+    <header class="header">                                              
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
+            <div class="container">
+            <a href="#LOGO" class="navbar-brand" ><img src="image/titleImage.png" width="45px" height="45px"> BackLog Developers</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span> 
+            </button>
+            <div class="nav-right">
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                <a href="#home" class="nav-link">Home</a>
+
+                <a href="#explore" class="nav-link">Services</a>
+
+                <a href="#projects" class="nav-link">Projects</a>
+
+                <a href="#contact" class="nav-link">Contact</a>
+                </div>  
+            </div>
+            </div>
+        </nav>
+        <div class="home-mid-text">
+            <h1>YOUR DREAM WEBSITE IS HERE</h1>
+            <h5>WE ARE HERE TO SERVE YOU THE BEST AND EASY WAY TO DEVELOP WEBSITES</h5>  
+            <a class="btn btn-secondary" data-toggle="collapse" href="#aboutUs" role="button" aria-expanded="false" aria-controls="collapseExample">
+                ABOUT US
+            </a>
+            <div class="collapse" id="aboutUs">
+                <div class="card card-body" id="aboutUsDetails">
+                    Our mission is to help small businesses and startups communicate better.
+                    We strive to create personalized solutions to empower your Digital journey.
+                    We are a one-stop-shop solution for all things digital.
+                </div>
+            </div>  
+        </div>  
+    </header>  
+      <!-- EXPLORE -->
+ <div class="high"> 
+    <section class="explore bg-dark" id="explore">
+      <div class="container">
+          <div class="row">
+              <div class="col text-center py-3">
+               <h1 class="display-4">SERVICES</h1>
+               <p class="lead">Hi, Explore many more things here. There are many options here for you. </p>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- EXPLORE-SECTION -->
+  <section id="explore-section" class="bg-light text-muted py-5">
+      <!-- <div class="container">
+          <div class="row" id="row-1">
+                  <div class="card col-md-4" id="mid-exp">
+                      <a class="card-body" id="card-name">Design & Development Services
+                      </a>
+                     <div class="cardDetails"> 
+                      <div>- Website Development</div>
+                      <div>- E-Commerce & WordPress</div>
+                      <div>- Personalized Product Development</div>
+                      <div>- Mobile Applications</div>
+                    </div> 
+                  </div>
+                  <div class="card col-md-4" id="mid-exp">
+                      <a class="card-body" id="card-name">Marketing Services</a>
+                      <div class="cardDetails"> 
+                          <div>- Digital Marketing</div>
+                          <div>- Email Marketing</div>
+                          <div>- Whatsapp/SMS Marketing & Bulk SMS</div>
+                          <div>- Content Marketing</div>
+                      </div> 
+                  </div>
+                  <div class="card col-md-4" id="mid-exp">
+                      <a class="card-body" id="card-name">Social Media Services
+                      </a>
+                      <div class="cardDetails"> 
+                          <div>- Promotions, Marketing & Engagements</div>
+                          <div>- Facebook Ads & Business Promotions</div>
+                          <div>- Google Ads & Business Promotions</div>
+                          <div>- Competitive Analysis & Content Creation</div>
+                      </div>
+                  </div>
+          </div>
+          <div class="row" id="row-2">
+              <div class="card col-md-6" id="mid-exp">
+                  <a class="card-body" id="card-name">Search Engine Services
+                  </a>
+                  <div class="cardDetails"> 
+                      <div>- Search Engine Optimization (SEO)</div>
+                      <div>- Search Engine Marketing (SEM)</div>
+                      <div>- Social Media Marketing (SMM)</div>
+                      <div>- Google Analytics</div>
+                  </div>  
+              </div>
+              <div class="card col-md-6" id="mid-exp">
+                  <a class="card-body" id="card-name">Miscellaneous Services</a>
+                  <div class="cardDetails"> 
+                      <div>- Domain, Hosting & SSL</div>
+                      <div>- Payment Gateway Integration</div>
+                      <div>- Technical Workshop/Webinars</div>
+                      <div>- Consultation</div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div> -->
+      <div id="accordion">
+       <p id="service-button">
+        <button class="btn btn-secondary btn-circle btn-xl" data-toggle="collapse" data-target="#design" type="button" aria-expanded="true" aria-controls="design">
+            <div><i class="fa fa-desktop"></i></div>    
+            Design & Development Services
+        </button>
+        <button class="btn btn-secondary btn-circle btn-xl collapsed" data-toggle="collapse" data-target="#market" type="button" aria-expanded="false" aria-controls="market">
+            <div><i class="fa fa-bar-chart"></i></div>
+            Marketing Services
+        </button>
+        <button class="btn btn-secondary btn-circle btn-xl collapsed" data-toggle="collapse" data-target="#media" type="button" aria-expanded="false" aria-controls="media">
+            <div><i class="fa fa-youtube-play"></i></div>
+            Social Media Services
+        </button>
+        <button class="btn btn-secondary btn-circle btn-xl collapsed" data-toggle="collapse" data-target="#engine" type="button" aria-expanded="false" aria-controls="engine">
+            <div><i class="fa fa-search"></i></div>
+            Search Engine Services
+        </button>
+        <button class="btn btn-secondary btn-circle btn-xl collapsed" data-toggle="collapse" data-target="#miscellaneous" type="button" aria-expanded="false" aria-controls="miscellaneous">
+            <div><i class="fa fa-gears"></i></div>
+            Miscellaneous Services
+        </button>
+       </p>  
+       <p id="service-content">  
+        <div class="collapse show" id="design" data-parent="#accordion">
+            <div class="card card-body" id="design-card">
+                <img src="image/design.jpg" alt="Design & Development Services" style="width: 100%; max-height: 350px;">
+                <!-- <div class="topic-head"> Design & Development Services</div>
+                <div>- Website Development</div>
+                <div>- E-Commerce & WordPress</div>
+                <div>- Personalized Product Development</div>
+                <div>- Mobile Applications</div> -->
+            </div>
+        </div>
+        <div class="collapse" id="market" data-parent="#accordion">
+            <div class="card card-body" id="market-card">
+                <img src="image/market.png" alt="Marketing Services" style="width: 100%; max-height: 350px;">
+                <!-- <div class="topic-head"> Marketing Services</div>
+                <div>- Digital Marketing</div>
+                <div>- Email Marketing</div>
+                <div>- Whatsapp/SMS Marketing & Bulk SMS</div>
+                <div>- Content Marketing</div> -->
+            </div>
+        </div>
+        <div class="collapse" id="media" data-parent="#accordion">
+            <div class="card card-body" id="media-card">
+                <img src="image/media.png" alt="Social Media Services" style="width: 100%; max-height: 350px;"> 
+                <!-- <div class="topic-head"> Social Media Services</div>
+                <div>- Promotions, Marketing & Engagements</div>
+                <div>- Facebook Ads & Business Promotions</div>
+                <div>- Google Ads & Business Promotions</div>
+                <div>- Competitive Analysis & Content Creation</div> -->
+            </div>
+        </div>
+        <div class="collapse" id="engine" data-parent="#accordion">
+            <div class="card card-body" id="engine-card">
+                <img src="image/engine.jpg" alt=" Search Engine Services" style="width: 100%; max-height: 350px;"> 
+                <!-- <div class="topic-head"> Search Engine Services</div>
+                <div>- Search Engine Optimization (SEO)</div>
+                <div>- Search Engine Marketing (SEM)</div>
+                <div>- Social Media Marketing (SMM)</div>
+                <div>- Google Analytics</div> -->
+            </div>
+        </div>
+        <div class="collapse" id="miscellaneous" data-parent="#accordion">
+            <div class="card card-body" id="miscellaneous-card">
+                <img src="image/services.jpg" alt=" Miscellaneous Services" style="width: 100%; max-height: 350px;"> 
+                <!-- <div class="topic-head"> Miscellaneous Services</div>
+                <div>- Domain, Hosting & SSL</div>
+                <div>- Payment Gateway Integration</div>
+                <div>- Technical Workshop/Webinars</div>
+                <div>- Consultation</div> -->
+            </div>
+        </div>
+        </p>
+    </div> 
+     </section>
+   </div>
+
+  <!-- PROJECTS -->
+<div class="high">
+
+    <section class="projects bg-dark" id="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center py-3">
+                 <h1 class="display-4">PROJECTS</h1>
+                 <p class="lead">Lets check out our projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PROJECT-SECTION -->
+    <div id="explore-section" class="bg-light text-muted">
+                <!-- The slideshow -->
+            <div id="slider-project" class="carousel slide" data-ride="carousel">
+    
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <div class="container-1">
+                        <img src="image/image-3.png" alt="Jewellery" style="width: 100%; max-height: 600px;">
+                        <div class="vir-button">
+                            <h5>Virtual Jewellery Try-on</h5>
+                            <p style="text-align: center;">A PERFECT JEWELLERY FOR YOU</p>
+                            <div style="text-align: center;">
+                            <button type="button" class="btn btn-outline-warning">Explore Our Latest Jewellery</button>
+                            </div>    
+                        </div>
+                       </div>   
+                  </div>
+                  <div class="carousel-item">
+                    <div class="container-2">
+                        <img src="image/image-2.jpg" alt="Shopping" style="width: 100%; max-height: 600px;">
+                        <div class="shop-button">
+                            <button type="button" class="btn btn-outline-info">Explore Now</button>
+                        </div>
+                    </div>    
+                  </div>
+                  <div class="carousel-item">
+                    <div class="container-3">
+                        <img src="image/image-4.png" alt="Learning" style="width: 100%; max-height: 600px;">
+                        <div class="learn-button">
+                            <button type="button" class="btn btn-outline-warning">Start Learning</button>
+                        </div>
+                    </div>    
+                  </div>
+                </div>
+                
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#slider-project" data-slide="prev" style="height: 600px;">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#slider-project" data-slide="next" style="height: 600px;">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
+            </div>
+      </div>
+    <section class="contact bg-dark" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center" style="padding-top: 3em;">
+                 <h1 class="display-4">CONTACT US</h1>
+                 <p style="color: white; ">Mobile : +91-9413979070
+                    <span style="padding-left: 20%;">Follow Us :
+                        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                        <a href="https://twitter.com/" class="fa fa-twitter"></a>
+                        <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a></span></p>
+                 <p style="color: white; padding-right: 40%;" >Email : vinay.soni531@gmail.com   
+                 <p style="color: white;">Copyright &copy;<span id="year"></span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        //Get the current year for the copyright
+        $('#year').text(new Date().getFullYear());
+    
+        $('body').scrollspy({ target: '#main-nav'});
+    </script>
+</body>
+</html>

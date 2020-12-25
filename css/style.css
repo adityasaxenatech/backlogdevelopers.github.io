@@ -1,0 +1,274 @@
+/* .header{
+    background-image: linear-gradient(
+        to right bottom,
+         #010819d7,
+         #3c9d7dc9),url("../image/cover-image.jpg");
+    background-size: cover;
+    min-height: 740px;
+} */
+.header{
+    background-image: url("../image/cover1-image.png");
+    background-size: cover;
+    min-height: 740px;
+}
+.high{
+    height: 740px;
+}
+.navbar{
+    opacity: 0.5;
+}
+
+.navbar-brand{
+    font-size: 35px;
+    color: rgb(193, 193, 253);
+}
+.nav-link{
+    color: rgb(252, 235, 235);
+}
+.nav-link:hover{
+    color: darkgray;
+}
+.nav-item{
+    padding:20px ;
+}
+
+.nav-right{
+    float: right;
+}
+
+.display-4{
+    color: white;
+}
+.home-mid-text{
+    width: 40%;
+    padding-top: 230px ;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.home-mid-text h1{
+    margin-bottom: 20px;
+}
+.home-mid-text h5{
+    margin-bottom: 20px;
+}
+
+#explore-section{
+    /* position: relative; */
+    background-image: linear-gradient(
+        to right bottom,
+         #e6eefcce,
+         #defcf2c9),url("../image/background.png");
+    background-size: cover;
+    min-height: 740px;
+}
+#aboutUsDetails{
+        background-color: transparent;
+        font-size: 22px;
+        margin: 10px 0px 0px 0px;
+        padding: 13px 45px;
+}
+.btn-circle.btn-xl { 
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    font-size: 15px; 
+    text-align: center;
+    margin: -20px 20px 0px 20px;
+} 
+#service-button{
+    margin: auto;
+    text-align: center;
+}
+/* #accordion{
+    position: relative;
+    top: -50px;
+} */
+#service-button .fa{
+    font-size: 30px;
+    padding-right: 50px;
+}
+/* #service-button #design{
+    position: absolute;
+    top: 210%;
+    left: 30%;
+}
+#service-button #marketing{
+    position: absolute;
+    top: 80%;
+    left: 18%;
+}
+/* #service-button #media{
+    position: absolute;
+    top: -20%;
+    left: 40%; 
+} */
+/* #service-button #engine{
+    position: absolute;
+    top: 80%;
+    left: 70%;
+}
+#service-button #mis{
+    position: absolute;
+    top: 210%;
+    left: 57%;
+} */ 
+.topic-head{
+    text-align: center;
+    font-size: 150%;
+    color:rgb(166, 133, 216);
+}
+#design-card, #market-card , #media-card, #engine-card, #miscellaneous-card{
+    margin:0% 12.5% ;
+    background-color: rgb(45, 46, 68);
+    color: white;
+    font-size: 30px;
+}
+.button:hover{
+    color: brown;
+}
+
+                                                                                            /* SLIDEBAR */
+/* #slider{
+    width: 50%;
+    margin:50px auto;
+}      */
+#slider .carousel-item .card{
+    background-color: yellowgreen;
+    opacity: 0.9;
+    padding: 10px 150px;
+}                                                                                       
+#slider .carousel-item .card .card-body{
+    font-size: 50px;
+    text-align: center;
+    padding:35% 0% 35% 0%;
+}
+#slider .carousel-inner{
+    width: 100%;
+    height: 400px;
+}
+                                                                                            /* SLIDEBAR END */
+
+                                                                                            /* Services */  
+#row-1 #mid-exp{
+    text-align: center;
+    margin-bottom: 5%;
+   padding-bottom: 10px;
+   background-color: rgb(226, 225, 225);
+}
+#row-1 #mid-exp .card{
+    font-size: 15px;
+} 
+#row-1 #mid-exp #card-name{
+    color: teal;
+}
+#row-1 #mid-exp .cardDetails{
+    text-align: left;
+    padding-left: 60px;
+}
+.lead{
+    color: rgb(225, 255, 255);
+}         
+#row-2{
+    padding: 0px 100px 0px 100px;
+}        
+#row-2 #mid-exp{
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: rgb(251, 221, 221);
+}   
+#row-2 #mid-exp #card-name{
+        color: teal;
+}  
+#row-2 #mid-exp .cardDetails{
+    text-align: left;
+    padding-left: 60px;
+
+}                                                                                                                                    
+                                                                                            /* Service End */
+                                                                                                                                                                                        /* SLIDEBAR */
+#slider{
+    width: 100%;
+    margin:50px auto;
+}     
+#slider-project{
+    width: 100%;
+    height: 400px;
+}
+/* #slider-project .carousel-item .card{
+    background-color: yellowgreen;
+    opacity: 0.9;
+    padding: 10px 150px;
+}                                                                                       
+#slider-project .carousel-item .card .card-body{
+    font-size: 50px;
+    text-align: center;
+    padding:35% 0% 35% 0%;
+}
+#slider-project .carousel-inner{
+    width: 100%;
+    max-height: 400px;
+} */
+                                                                                            /* SLIDEBAR END */
+.container-1{
+    position: relative;
+}                     
+.container-1 .vir-button{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+} 
+.container-1 .vir-button h5{
+    font-size: 300%;
+    color: rgb(241, 212, 42);
+}   
+.container-1 .vir-button p{
+    font-size: 125%;
+    color: rgb(241, 212, 42);
+}        
+.container-2 {
+    position: relative;
+}                     
+.container-2 .shop-button{
+    position: absolute;
+    top: 60%;
+    left: 68%;
+
+}     
+.container-3 {
+    position: relative;
+}                     
+.container-3 .learn-button{
+    position: absolute;
+    top: 57%;
+    left: 21%;
+
+}                                                 
+
+.fa {
+  padding:3px 20px 3px 20px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+}
+
+.fa:hover {
+    opacity: 0.8;
+    color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}     
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+
