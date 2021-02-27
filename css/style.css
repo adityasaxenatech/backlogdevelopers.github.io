@@ -9,18 +9,27 @@
 .header{
     background-image: url("../image/cover1-image.png");
     background-size: cover;
-    min-height: 740px;
+    min-height: 95.4vh;
 }
 .high{
-    height: 740px;
+    height: 95.4vh;
+}
+.sc-end{
+    padding: 2vmax;
+    background-color: rgb(28, 28, 52);
 }
 .navbar{
-    opacity: 0.5;
+    opacity: 1;
 }
 
-.navbar-brand{
-    font-size: 35px;
-    color: rgb(193, 193, 253);
+#navbar-title{
+    font-size:115%;
+    color: white;
+    background-color: transparent;
+}
+#navbar-title:hover{
+    text-decoration: none;
+    color: rgb(177, 174, 174);
 }
 .nav-link{
     color: rgb(252, 235, 235);
@@ -29,7 +38,7 @@
     color: darkgray;
 }
 .nav-item{
-    padding:20px ;
+    padding:2% ;
 }
 
 .nav-right{
@@ -39,16 +48,16 @@
 .display-4{
     color: white;
 }
-.home-mid-text{
-    width: 40%;
-    padding-top: 230px ;
+#home-mid-text{
+    /* width: 40%; */
+    padding-top: 150px ;
     text-align: center;
     color: rgb(255, 255, 255);
 }
-.home-mid-text h1{
+#home-mid-text h1{
     margin-bottom: 20px;
 }
-.home-mid-text h5{
+#home-mid-text h5{
     margin-bottom: 20px;
 }
 
@@ -63,15 +72,14 @@
 }
 #aboutUsDetails{
         background-color: transparent;
-        font-size: 22px;
+        font-size: 1.5vmax;
         margin: 10px 0px 0px 0px;
-        padding: 13px 45px;
 }
 .btn-circle.btn-xl { 
-    width: 150px;
-    height: 150px;
+    width: 19.8vmin;
+    height: 19.8vmin;
     border-radius: 50%; 
-    font-size: 15px; 
+    font-size: .9vmax; 
     text-align: center;
     margin: -20px 20px 0px 20px;
 } 
@@ -84,8 +92,9 @@
     top: -50px;
 } */
 #service-button .fa{
-    font-size: 30px;
-    padding-right: 50px;
+    font-size: 3vmin;
+    padding-right: 0vmin;
+    padding-left: 0vmin;
 }
 /* #service-button #design{
     position: absolute;
@@ -192,7 +201,7 @@
 }     
 #slider-project{
     width: 100%;
-    height: 400px;
+    height: 60vmin;
 }
 /* #slider-project .carousel-item .card{
     background-color: yellowgreen;
@@ -218,11 +227,11 @@
     left: 15%;
 } 
 .container-1 .vir-button h5{
-    font-size: 300%;
+    font-size: 3vmin;
     color: rgb(241, 212, 42);
 }   
 .container-1 .vir-button p{
-    font-size: 125%;
+    font-size: 2vmin;
     color: rgb(241, 212, 42);
 }        
 .container-2 {
@@ -230,8 +239,9 @@
 }                     
 .container-2 .shop-button{
     position: absolute;
-    top: 60%;
-    left: 68%;
+    top: 37vmin;
+    text-align: right;
+    padding: 0vmin 34vmin 0vmin 69vmin;
 
 }     
 .container-3 {
@@ -239,10 +249,14 @@
 }                     
 .container-3 .learn-button{
     position: absolute;
-    top: 57%;
-    left: 21%;
+    top: 32vmin;
+    left: 20vw;
 
-}                                                 
+}  
+
+#explore-project button{
+    font-size: 2vmin;
+}
 
 .fa {
   padding:3px 20px 3px 20px;

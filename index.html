@@ -21,28 +21,37 @@
 </head>
 <body>
     <body data-spy="scroll" data-target="#main-nav" id="home">
-                                                    <!-- Navigation BAR -->
-    <header class="header">                                              
+                                                    <!-- Navigation BAR -->                                             
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
             <div class="container">
-            <a href="#LOGO" class="navbar-brand" ><img src="image/titleImage.png" width="45px" height="45px"> BackLog Developers</a>
+            <a href="#LOGO" id="navbar-title" ><img src="image/titleImage.png" width="45px" height="45px"> BackLog Developers</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span> 
             </button>
-            <div class="nav-right">
+            <!-- <div class="nav-right"> -->
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                <a href="#home" class="nav-link">Home</a>
-
-                <a href="#explore" class="nav-link">Services</a>
-
-                <a href="#projects" class="nav-link">Projects</a>
-
-                <a href="#contact" class="nav-link">Contact</a>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#explore" class="nav-link">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#projects" class="nav-link">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
                 </div>  
             </div>
-            </div>
+            <!-- </div> -->
         </nav>
-        <div class="home-mid-text">
+                                                     <!-- Header -->                                             
+       
+        <header class="header"> 
+        <div class="col-md-4" id="home-mid-text">
             <h1>YOUR DREAM WEBSITE IS HERE</h1>
             <h5>WE ARE HERE TO SERVE YOU THE BEST AND EASY WAY TO DEVELOP WEBSITES</h5>  
             <a class="btn btn-secondary" data-toggle="collapse" href="#aboutUs" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -57,18 +66,24 @@
             </div>  
         </div>  
     </header>  
+    <!-- <div class="sc-end">
+        <h1></h1>
+    </div> -->
       <!-- EXPLORE -->
- <div class="high"> 
-    <section class="explore bg-dark" id="explore">
-      <div class="container">
-          <div class="row">
-              <div class="col text-center py-3">
-               <h1 class="display-4">SERVICES</h1>
-               <p class="lead">Hi, Explore many more things here. There are many options here for you. </p>
-              </div>
-          </div>
-      </div>
-  </section>
+ <div class="high">
+   <div id="explore">
+    <section class="explore  bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center py-3">
+                 <h1 style="font-size: 7vmin;" class="display-4">SERVICES</h1>
+                 <p style="font-size: 4vmin;" class="lead">Hi, Explore many more things here. There are many options here for you. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+   </div>  
+    
   <!-- EXPLORE-SECTION -->
   <section id="explore-section" class="bg-light text-muted py-5">
       <!-- <div class="container">
@@ -152,7 +167,7 @@
        <p id="service-content">  
         <div class="collapse show" id="design" data-parent="#accordion">
             <div class="card card-body" id="design-card">
-                <img src="image/design.jpg" alt="Design & Development Services" style="width: 100%; max-height: 350px;">
+                <img src="image/design.jpg" alt="Design & Development Services" style="width: 100%; max-height: 16.5vmax;">
                 <!-- <div class="topic-head"> Design & Development Services</div>
                 <div>- Website Development</div>
                 <div>- E-Commerce & WordPress</div>
@@ -162,7 +177,7 @@
         </div>
         <div class="collapse" id="market" data-parent="#accordion">
             <div class="card card-body" id="market-card">
-                <img src="image/market.png" alt="Marketing Services" style="width: 100%; max-height: 350px;">
+                <img src="image/market.png" alt="Marketing Services" style="width: 100%; max-height: 16.5vmax;">
                 <!-- <div class="topic-head"> Marketing Services</div>
                 <div>- Digital Marketing</div>
                 <div>- Email Marketing</div>
@@ -172,7 +187,7 @@
         </div>
         <div class="collapse" id="media" data-parent="#accordion">
             <div class="card card-body" id="media-card">
-                <img src="image/media.png" alt="Social Media Services" style="width: 100%; max-height: 350px;"> 
+                <img src="image/media.png" alt="Social Media Services" style="width: 100%; max-height: 16.5vmax;"> 
                 <!-- <div class="topic-head"> Social Media Services</div>
                 <div>- Promotions, Marketing & Engagements</div>
                 <div>- Facebook Ads & Business Promotions</div>
@@ -182,7 +197,7 @@
         </div>
         <div class="collapse" id="engine" data-parent="#accordion">
             <div class="card card-body" id="engine-card">
-                <img src="image/engine.jpg" alt=" Search Engine Services" style="width: 100%; max-height: 350px;"> 
+                <img src="image/engine.jpg" alt=" Search Engine Services" style="width: 100%; max-height: 16.5vmax;"> 
                 <!-- <div class="topic-head"> Search Engine Services</div>
                 <div>- Search Engine Optimization (SEO)</div>
                 <div>- Search Engine Marketing (SEM)</div>
@@ -192,7 +207,7 @@
         </div>
         <div class="collapse" id="miscellaneous" data-parent="#accordion">
             <div class="card card-body" id="miscellaneous-card">
-                <img src="image/services.jpg" alt=" Miscellaneous Services" style="width: 100%; max-height: 350px;"> 
+                <img src="image/services.jpg" alt=" Miscellaneous Services" style="width: 100%; max-height: 16.5vmax;"> 
                 <!-- <div class="topic-head"> Miscellaneous Services</div>
                 <div>- Domain, Hosting & SSL</div>
                 <div>- Payment Gateway Integration</div>
@@ -206,59 +221,63 @@
    </div>
 
   <!-- PROJECTS -->
-<div class="high">
+<div>
+<br>
+<br>
+<br>
+<br>
 
-    <section class="projects bg-dark" id="projects">
+    <section class="projects bg-dark"  id="projects">
         <div class="container">
             <div class="row">
                 <div class="col text-center py-3">
-                 <h1 class="display-4">PROJECTS</h1>
-                 <p class="lead">Lets check out our projects.</p>
+                 <h1 style="font-size: 7vmin;" class="display-4">PROJECTS</h1>
+                 <p style="font-size: 4vmin;" class="lead">Lets check out our projects.</p>
                 </div>
             </div>
         </div>
     </section>
     <!-- PROJECT-SECTION -->
-    <div id="explore-section" class="bg-light text-muted">
+    <div id="explore-project" class="bg-light text-muted">
                 <!-- The slideshow -->
             <div id="slider-project" class="carousel slide" data-ride="carousel">
     
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                       <div class="container-1">
-                        <img src="image/image-3.png" alt="Jewellery" style="width: 100%; max-height: 600px;">
+                        <img src="image/image-3.png" class="d-md-block" alt="Jewellery" style="width: 100%; max-height: 60vmin;">
                         <div class="vir-button">
                             <h5>Virtual Jewellery Try-on</h5>
-                            <p style="text-align: center;">A PERFECT JEWELLERY FOR YOU</p>
+                            <p style="text-align: left; padding-left: 2vmin;">A PERFECT JEWELLERY FOR YOU</p>
                             <div style="text-align: center;">
                             <button type="button" class="btn btn-outline-warning">Explore Our Latest Jewellery</button>
                             </div>    
                         </div>
                        </div>   
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item ">
                     <div class="container-2">
-                        <img src="image/image-2.jpg" alt="Shopping" style="width: 100%; max-height: 600px;">
-                        <div class="shop-button">
+                        <img src="image/image-2.png" class="d-md-block" alt="Shopping" style="width: 100%; max-height: 60vmin;">
+                        <div class="shop-button col-md-12">
                             <button type="button" class="btn btn-outline-info">Explore Now</button>
                         </div>
                     </div>    
                   </div>
                   <div class="carousel-item">
                     <div class="container-3">
-                        <img src="image/image-4.png" alt="Learning" style="width: 100%; max-height: 600px;">
+                        <img src="image/image-4.png" class="d-md-block" alt="Learning" style="width: 100%; max-height: 60vmin;">
                         <div class="learn-button">
-                            <button type="button" class="btn btn-outline-warning">Start Learning</button>
+                            <a href="http://portal.vinaykadel.org.in/" type="button" class="btn btn-outline-warning" style="font-size: 2vmin;">Start Learning</a>
                         </div>
                     </div>    
                   </div>
                 </div>
                 
                 <!-- Left and right controls -->
-                <a class="carousel-control-prev" href="#slider-project" data-slide="prev" style="height: 600px;">
+                <a class="carousel-control-prev" href="#slider-project" data-slide="prev" style="height: 60vmin;">
                   <span class="carousel-control-prev-icon"></span>
                 </a>
-                <a class="carousel-control-next" href="#slider-project" data-slide="next" style="height: 600px;">
+                <a class="carousel-control-next" href="#slider-project" data-slide="next" style="height: 60vmin;">
                   <span class="carousel-control-next-icon"></span>
                 </a>
               </div>
@@ -267,14 +286,20 @@
     <section class="contact bg-dark" id="contact">
         <div class="container">
             <div class="row">
-                <div class="col text-center" style="padding-top: 3em;">
-                 <h1 class="display-4">CONTACT US</h1>
-                 <p style="color: white; ">Mobile : +91-9413979070
-                    <span style="padding-left: 20%;">Follow Us :
-                        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
-                        <a href="https://twitter.com/" class="fa fa-twitter"></a>
-                        <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a></span></p>
-                 <p style="color: white; padding-right: 40%;" >Email : vinay.soni531@gmail.com   
+                <div class="col text-center py-3">
+                 <h1 style="font-size: 7vmin;" class="display-4">CONTACT US</h1>
+                 <div class="container">
+                     <div class="row">
+                        <div class="col-md-6" style="color: white; text-align: center;">
+                            <p>Mobile : +91-9413979070</p></div>
+                        <div class="col-md-6" style="color: white; text-align: center;" > 
+                            <p>Email : vinay.soni531@gmail.com</p></div>
+                     </div>
+                 </div>
+                 <div style="color: white; text-align: center;">Follow Us :
+                    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/" class="fa fa-twitter"></a>
+                    <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a></div>
                  <p style="color: white;">Copyright &copy;<span id="year"></span></p>
                 </div>
             </div>
